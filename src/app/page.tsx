@@ -97,6 +97,10 @@ export default function Home() {
           />
           Go to nextjs.org →
         </a>
+
+        <h1 className="text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
+          Amber Next.js Template
+        </h1>
       </footer>
     </div>
   );
