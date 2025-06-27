@@ -4,6 +4,12 @@
 
 ## Getting Started
 
+```bash
+docker build --no-cache -t amber .
+
+docker run -p 8080:8080 amber
+```
+
 First, run the development server:
 
 ```bash
