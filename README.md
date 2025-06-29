@@ -22,8 +22,15 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+npx prisma migrate reset
+npx prisma migrate dev
+npx prisma db seed
+npx prisma studio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install shadcn components
+```bash
+npx shadcn@latest add button #single component
+npx shadcn@latest add --all
+```
